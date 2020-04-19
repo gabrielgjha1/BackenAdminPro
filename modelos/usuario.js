@@ -10,6 +10,7 @@ var usuarioSchema = new schema ({
     password: {type:String},
     img: {type:String, required:[false]},
     role: { type:String , required: true , default:'USER_ROLE' },
+    google: {type:Boolean,default:false}
 
 });
 
